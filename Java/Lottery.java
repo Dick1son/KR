@@ -64,10 +64,9 @@ public class Lottery {
     
     public void lottery() {
         while(toyCount > 0){
-            // if (toyCount == 0) break;
             Scanner scan = new Scanner(System.in);
-            int chance = 100;
-            System.out.println("\nШанс на выигрыш по умолчанию 50%" + toyCount);
+            int chance = 50;
+            System.out.println("\nШанс на выигрыш по умолчанию 50%");
             System.out.println("Если хотите изменить шанс на победу, нажмите 1");
             System.out.println("Если хотите оставить шанс на победу по умолчанию, нажмите 2");
             System.out.println("Если хотите закончить игру, нажмите 3");
